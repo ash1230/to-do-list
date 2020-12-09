@@ -1,0 +1,27 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.navbar-default {
+    background-color:teal;
+    background-image: none;
+    background-repeat: no-repeat;
+   }
+.table-responsive{
+    
+    text-align: center;
+}
+#todo_table{
+    background-color:rgba(13, 180, 158, 0.993);
+    color:black;
+    text-align: center;
+    text-transform: capitalize;
+}
+#todo_table th{
+    text-align: center;
+}
+.container h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: rgb(11, 70, 97);
+}

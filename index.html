@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>	
+		<title>Login page</title>
+		<link rel="stylesheet" href="style.css">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+	</head>
+	<body background="bgimg.webp">
+		<header>
+			<!-- Image and text -->
+			<nav class="navbar navbar-light bg-danger">
+			
+	  			<img src="imgg.jpg" width="30" height="30" class="d-inline-block align-top" alt="">
+	            Welcome To-Do List Web Application 
+	
+  			</nav>
+
+		</header>
+	    <br>
+		<form method="POST" action="todo.html" class="login">
+			<h2>User Login</h2>
+			<br>
+			<div class="login-cont">
+				<label>Username</label>
+				<br>
+            	<input type="text" id="username" placeholder="Username">
+			</div>
+			<br>
+			<div class="login-cont">
+				<label>Password</label>
+				<br>
+            	<input type="password" id="password" placeholder="Password">
+			</div>
+			<br>
+			 <div class="log-b">
+				
+				<button type="button" id="button" onclick="getInfo()">Login</button> 
+			</div> 
+			
+		</form>
+
+		<script src="login.js"></script>
+	</body>
+</html>

@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-size: cover;
+}
+nav{
+    /* margin-right: 20px; */
+    font-weight: bold;
+    /* font-size: large; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* form */
+.login{
+    margin-left: 42%;
+    margin-top: 6%;
+    border: 2px brown;
+    height: 15em;
+}
+.login h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding-left: 3%;
+    color: rgb(192, 16, 16) ;
+
+}
+.login-cont{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+
+}
+.login #button{
+    width: 31%;
+    height: 1.8 em;
+    color:white;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    background-color:rgb(192, 16, 16);
+    border: 1px solid rgb(207, 41, 41);
+}
